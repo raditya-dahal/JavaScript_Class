@@ -1,0 +1,39 @@
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #222;
+  background: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+#output p {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+#output h2 {
+  margin: 0.5rem 0 0.75rem;
+  font-size: 1.25rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+}
+
+td {
+  border: 1px solid #d9d9d9;
+  padding: 8px 12px;
+  text-align: right;
+  min-width: 2.5rem;
+}
+
+tr:nth-child(even) td {
+  background: #fafafa;
+}
