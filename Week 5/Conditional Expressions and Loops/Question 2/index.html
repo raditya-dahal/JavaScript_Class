@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Distance Between Two Points</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Distance Calculator</h1>
+    <label for="point1">Enter coordinates of Point 1 (x1, y1):</label>
+    <input type="text" id="point1" placeholder="e.g. 3, 4" />
+
+    <label for="point2">Enter coordinates of Point 2 (x2, y2):</label>
+    <input type="text" id="point2" placeholder="e.g. 7, 1" />
+
+    <button onclick="calculateDistance()">Calculate Distance</button>
+
+    <div class="result">
+      <p id="distance"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
